@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background_color"
+    tools:context="com.amsu.dategirls.activity.FindLoveActivity">
+
+    <include layout="@layout/base_activity_head"
+        android:id="@+id/rl_base_head"></include>
+
+    <GridView
+        android:id="@+id/gv_findlove_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/x20"
+        android:horizontalSpacing="@dimen/x15"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/x15">
+    </GridView>
+</LinearLayout>

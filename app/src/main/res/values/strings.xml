@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">简爱</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="describe">图片加载中</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

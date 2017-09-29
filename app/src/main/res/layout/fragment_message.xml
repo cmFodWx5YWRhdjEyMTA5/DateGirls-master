@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/base_activity_head"
+        android:id="@+id/rl_base_head"></include>
+
+    <TextView
+        android:id="@+id/tv_msg_noMsgContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="暂无消息，点击刷新"
+        android:textSize="20sp"
+
+        android:gravity="center"/>
+    <!--android:background="@drawable/bg_textpress"-->
+    <com.amsu.dategirls.view.LastMsgListView
+        android:id="@+id/lv_msg_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amsu.dategirls.view.LastMsgListView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amsu.dategirls.fragment.picture.AlbumFragment">
+
+    <GridView
+        android:id="@+id/gv_album_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/x20"
+        android:horizontalSpacing="@dimen/x15"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/x15">
+    </GridView>
+
+</FrameLayout>

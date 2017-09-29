@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x200">
+        <com.amsu.dategirls.view.RoundRectImageView
+            android:id="@+id/iv_friend_image"
+            android:layout_width="@dimen/x144"
+            android:layout_height="@dimen/x144"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/x34"
+            android:layout_marginBottom="@dimen/x34"
+            android:layout_marginLeft="@dimen/x36"
+            android:src="@drawable/home_wd"/>
+
+        <TextView
+            android:id="@+id/tv_friend_name"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x34"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x32"
+            android:layout_toRightOf="@id/iv_friend_image"
+            android:text="名称"
+            android:textColor="#333333"
+            android:maxLines="2"
+            android:textSize="@dimen/x48" />
+
+        <TextView
+            android:id="@+id/tv_friend_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_friend_image"
+            android:text="广东深圳"
+            android:layout_marginLeft="@dimen/x32"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/x34"
+            android:textColor="#999999"
+            android:textSize="@dimen/x28" />
+
+        <ImageView
+            android:id="@+id/iv_friend_sex"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/x20"
+            android:layout_toRightOf="@id/tv_friend_city"
+            android:layout_marginBottom="@dimen/x40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/x20"
+            android:src="@drawable/female"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

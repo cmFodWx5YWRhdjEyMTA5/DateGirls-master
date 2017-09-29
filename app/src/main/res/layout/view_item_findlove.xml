@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/app_background_color">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x400"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_bt_rec_roundangle_white">
+
+        <com.amsu.dategirls.view.CircleImageView
+            android:id="@+id/iv_findlove_iamge"
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/x200"
+            android:src="@drawable/huodong"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/describe"/>
+
+        <TextView
+            android:id="@+id/iv_findlove_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_findlove_iamge"
+            />
+
+        <!--<TextView
+            android:id="@+id/iv_findlove_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="21岁"
+            android:layout_below="@+id/iv_findlove_name"
+            />
+        <TextView
+            android:id="@+id/iv_findlove_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="深圳"
+            android:layout_below="@+id/iv_findlove_name"
+            android:layout_toRightOf="@+id/iv_findlove_age"
+            android:layout_marginLeft="@dimen/x20"
+            />-->
+        <Button
+            android:id="@+id/iv_findlove_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x60"
+            android:text="关注"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_bt_rec_roundangle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/x20"/>
+    </RelativeLayout>
+    
+
+
+</LinearLayout>

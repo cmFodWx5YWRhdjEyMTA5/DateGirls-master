@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x300">
+        <ImageView
+            android:id="@+id/iv_dataeventitem_iamge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#77999999" />
+        <TextView
+            android:id="@+id/tv_dataeventitem_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="穿衣搭配"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/x54"
+            android:textStyle="bold"
+            android:layout_above="@+id/tv_dataeventitem_time"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginLeft="@dimen/x36"/>
+        <TextView
+            android:id="@+id/tv_dataeventitem_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_dataeventitem_partNumber"
+            android:text="时间：2017.9.29-2017.10.8"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/x36"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginLeft="@dimen/x36"/>
+
+        <TextView
+            android:id="@+id/tv_dataeventitem_partNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参与人数：0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/x36"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginLeft="@dimen/x36"/>
+        <TextView
+            android:id="@+id/tv_dataeventitem_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进行中"
+            android:textColor="@color/app_main_backcolor"
+            android:textSize="@dimen/x48"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginRight="@dimen/x36"/>
+    </RelativeLayout>
+    
+
+</LinearLayout>
